@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Webbsida</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="print.css" media="print">
+</head>
+<body>
+    <header>
+        <h2>
+            <nav class="table-main">
+                <p>
+                    <ul>
+                        <li><a href="Index.html" title="Startsida">Startsida</a></li>
+                        <li><a href="about.html" title="Om mig">Om mig</a></li>
+                        <li><a href="cv.html" title="Mitt CV">Mitt CV</a></li>
+                        <li><a href="project.html" title="Mina Projekt">Projekt</a></li>
+                        <li style="text-decoration: underline;color: black;"><a href="contact.html" title="Kontakta mig">Kontakta mig</a></li>
+                    </ul>
+                </p>
+            </nav>
+        </h2>
+    </header>
+    <main class="contact">
+    <section class="contact-img">
+        <p>
+            <img src="20231204_112533.jpg" alt="Bild på skog mitt i vintern.">
+        </p>
+    </section>
+<!--    <main class="contact-me">
+        <p>
+            <a class="mail-box" href=mailto:"nellbeckfredrik@gmail.com">Maila mig!</a> <br>
+            Du kanske är lite mer oldschool och vill skicka ett brev så finns mitt hus på: <br>
+            <div class="box">
+                    Fredik Nellbeck <br>
+                    Länsmansvägen 15 <br>
+                    82595 Enånger
+            </div>
+            <br>
+            
+            Vem vet, du kanske vill ringa och prata med min röstbrevlåda?<br>
+            Han kan du nå på: 
+            <div class="tele-box">
+                073 060 77 95
+            </div>
+            
+        </p>
+    </main>
+-->
+
+    <form id="form" name="form" method="post" action=" ">
+
+        Namn:<br>
+        <input type="text" name="namn" class="name" /> <br>
+        
+        E-postadress:<br>
+        <input type="email" name="epost" class="epost" /> <br>
+        
+        Meddelande:<br>
+        <textarea name="meddelande" class="meddelande" cols="45" rows="5"></textarea> <br>
+        
+        <input type="submit" name="skicka" id="skicka" value="Skicka" />
+        
+        </form>
+        
+</main>
+<footer>
+    <p>
+        &copy; Fredrik Nellbeck 2024
+        <a class="glines" href="webb_guidelines.html" title="Webbriktlinjer" alt="Länk till Webbriktlinjer">Webbriktlinjer</a>
+    </p>
+</footer>
+</body>
+</html>
