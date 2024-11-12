@@ -153,7 +153,14 @@ form
     height: 16em;
     background-color: rgb(221, 252, 227);
 }
-
+.contact-me 
+{
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgb(130, 197, 202);
+    box-shadow: 5px 5px 5px black;
+    padding: 16px;
+}
 #skicka
 {
     color: #000;
@@ -347,4 +354,14 @@ form
     text-align: center;
     background-color: #9c9c9c7e;
 
+  }
+  .mail-box 
+  {
+    padding-left: 9em;
+    color: #000000;
+    
+  }
+  .mail-box:hover 
+  {
+    color:white;
   }
